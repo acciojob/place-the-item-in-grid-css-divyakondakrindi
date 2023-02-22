@@ -1,13 +1,11 @@
 
 /* Your CSS Code here. */
 .holder{
-	box-sizing: border-box;
-	border:2px solid black;
 	display:grid;
 	grid-template-columns: repeat(2, 2fr);
 	grid-template-rows: repeat(2, 2fr);
 }
 .holder > div{
     background-color: antiquewhite;
-    border: 3px solid green;
+    border: 1px solid green;
 }
